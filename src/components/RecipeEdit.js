@@ -1,7 +1,6 @@
 import React, { useContext } from "react"
 import IngredientEdit from "./IngredientEdit"
 import { RecipeContext } from "./App"
-import IngredientList from "./IngredientList"
 
 export default function RecipeEdit({ recipe }) {
   const { handleRecipeEditDelete } = useContext(RecipeContext)
